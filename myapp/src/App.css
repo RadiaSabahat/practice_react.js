@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo { 
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#core-concept{
+  padding:2rem ;
+  border-radius: 6px;
+  background-color: #0f2655 ;
+  box-shadow: 0 2px 8px  #282c34;
+}
+main h3{
+  text-align: center;
+  font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+  color: #61dafb;
+  margin: 0 0 1.5rem 0;
+}
+#core-concept ul{
+  list-style: none;
+  padding: 0;
+}
+
+main p{
+  text-align: center;
+  font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+  color: #61dafb;
+  margin: 0 0 1.5rem 0;
+
+}
+/* horizental layout */
+#core-concept ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  flex-wrap: nowrap; /* Responsive layout */
+  justify-content: flex-start;
+  margin: 50px;
+  overflow-x: auto;  
+}
+/* CARD styling */
+#core-concept li {
+  margin-left: 6%;
+  background-color: transparent;
+  color: #00cfff;
+  width: 200px;
+  text-align: center;
+  padding: 3px;
+  transition: transform 0.2s ease;
+}
+
+
+  main img{
+    width: 55px;
+  }
