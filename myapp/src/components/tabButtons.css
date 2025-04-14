@@ -1,0 +1,30 @@
+#buttons{
+    color: #61dafb;
+   
+    
+}
+#buttons li{
+    list-style: none;
+}
+
+#buttons li button{
+    
+    border-radius: 5px;
+    background-color: rgb(38, 177, 177);
+    padding: 10px;
+}
+#buttons li button:hover{
+    cursor: pointer;
+    background-color: rgb(105, 185, 159);
+}
+#buttons menu {
+   display: flex;
+    list-style: none;
+    gap: 2%;
+    padding: 0;
+    flex-wrap: nowrap; /* Responsive layout */
+    justify-content: center;
+    margin: 10px;
+    overflow-x: auto;  
+    cursor: pointer;
+  }
