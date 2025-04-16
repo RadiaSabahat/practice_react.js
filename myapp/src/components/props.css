@@ -4,6 +4,9 @@
     border-radius: 6px;
     background-color: #0f2655 ;
     box-shadow: 0 2px 8px  #282c34;
+    margin-left: 5% ;
+    margin-right: 5%;
+    
   }
   main h3{
     text-align: center;
@@ -21,6 +24,7 @@
     font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
     color: #61dafb;
     margin: 0 0 1.5rem 0;
+    font-size: small;
   
   }
   /* horizental layout */

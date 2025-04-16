@@ -1,6 +1,6 @@
-#buttons{
+#buttons    {
     color: #61dafb;
-   
+   text-align: center;
     
 }
 #buttons li{
@@ -11,20 +11,36 @@
     
     border-radius: 5px;
     background-color: rgb(38, 177, 177);
-    padding: 10px;
+    padding: 5px;
 }
 #buttons li button:hover{
     cursor: pointer;
-    background-color: rgb(105, 185, 159);
+    background-color: rgb(100, 168, 191);
+    color: aliceblue;
 }
 #buttons menu {
    display: flex;
     list-style: none;
-    gap: 2%;
-    padding: 0;
+    gap: 0%;
+    padding: 50px;
     flex-wrap: nowrap; /* Responsive layout */
     justify-content: center;
-    margin: 10px;
+    margin-bottom: 5px;
     overflow-x: auto;  
     cursor: pointer;
   }
+  .tab-content{
+    
+    padding: 1rem;
+    margin: 0% 30% ;
+    margin-bottom: 5% 0%;
+    text-align: left;
+    background-color: #1f2c47;
+    border-radius: 15px;
+}
+.tab-content p pre{
+    font-size: small;
+}
+.tab-content code{
+    font-size: 1rem ;
+}

@@ -5,13 +5,13 @@
 // };
 
 //by destructuring
-export default  function TabButtons({children, onSelect}){
-    
-    return(
-        
-        <li><button onClick={onSelect} >{children}</button></li>
-    )
-};
+export default function TabButtons({ children, onSelect }) {
+  return (
+    <li>
+      <button className="active" onClick={onSelect}>{children}</button>
+    </li>
+  );
+}
 
 // export default  function TabButtons({lable}){
 //     return(
